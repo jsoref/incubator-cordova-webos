@@ -22,7 +22,7 @@ Build your Cordova app
 -----------------------------------------------------
 Navigate to `Cordova_root/webOS_new/framework/`; this is where your application will reside. If you have already built a Cordova application on another platform, drop your html,js, css and assets into this folder (starting with the required index.html). Don't forget cordova.js!
 
-Just open framework/ in your favourite editor, build your web app, and run the appropriate make command indicated above. Edit appinfo.json to set your app id (see Notes below), version, etc.
+Just open framework/ in your favorite editor, build your web app, and run the appropriate make command indicated above. Edit appinfo.json to set your app id (see Notes below), version, etc.
 
 Cordova-webOS doesn't need to do any native initialization, but it does fire a `deviceready` that guarantees all the Cordova APIs are in place. You can run your code at `deviceready` like so:
 
