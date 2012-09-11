@@ -81,7 +81,7 @@ Compass.prototype.getCurrentHeading = function(successCallback, errorCallback, o
 
             //successCallback(dis.lastHeading.magHeading);
             clearInterval(timer);
-        } else if (delay >= timeout) { //else if timeout has occured then call error and cancel the timer
+        } else if (delay >= timeout) { //else if timeout has occurred then call error and cancel the timer
             errorCallback();
             clearInterval(timer);
         }
