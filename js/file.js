@@ -34,7 +34,7 @@ function File() {
 };
 
 /*
- * Reads a file from the mobile device. This function is asyncronous.
+ * Reads a file from the mobile device. This function is asynchronous.
  * @param {String} fileName The name (including the path) to the file on the mobile device. 
  * The file name will likely be device dependant.
  * @param {Function} successCallback The function to call when the file is successfully read.
