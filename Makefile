@@ -60,7 +60,7 @@ ifeq ($(UNAME), Darwin)
 # mac OSX
 	palm-package framework/
 else
-# assume windows OS
+# assume Windows OS
 	palm-package.bat framework/
 endif
 endif
@@ -74,7 +74,7 @@ ifeq ($(UNAME), Darwin)
 # mac OSX
 	palm-install $(NAME)_$(VERSION)_all.ipk
 else
-# assume windows OS
+# assume Windows OS
 	palm-install.bat $(NAME)_$(VERSION)_all.ipk
 endif
 endif
@@ -87,7 +87,7 @@ ifeq ($(UNAME), Darwin)
 # mac OSX
 	palm-launch $(NAME)
 else
-# assume windows OS
+# assume Windows OS
 	palm-launch.bat $(NAME)
 endif
 endif
