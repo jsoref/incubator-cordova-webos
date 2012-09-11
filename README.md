@@ -10,8 +10,8 @@ Set up your environment and install the skeleton app
 -----------------------------------------------------
 Open a terminal, and navigate to the root Cordova webOS folder (where this readme.md file is located). A Makefile resides here; running make here will package your application, and install it to either the emulator, or the device. Or you can run make on individual target tasks:
 
-   - `make js` - builds Cordova.js from source javascript files to libs/Cordova.js
-   - `make copy_js` - copies libs/Cordova.js to framework/Cordova.js - modify this path if you want Cordova.js in another location
+   - `make js` - builds cordova.js from source javascript files to libs/cordova.js
+   - `make copy_js` - copies libs/cordova.js to framework/cordova.js - modify this path if you want cordova.js in another location
    - `make package` - builds the webOS app (located in framework/) into an webOS .ipk installer package in the Cordova_root/palm/ folder
    - `make deploy` - installs the .ipk package to a device if detected, otherwise the emulator if its running 
 
@@ -20,7 +20,7 @@ If a connected webOS device is detected, the application will be installed to th
 
 Build your Cordova app
 -----------------------------------------------------
-Navigate to `Cordova_root/webOS_new/framework/`; this is where your application will reside. If you have already built a Cordova application on another platform, drop your html,js, css and assets into this folder (starting with the required index.html). Don't forget Cordova.js!
+Navigate to `Cordova_root/webOS_new/framework/`; this is where your application will reside. If you have already built a Cordova application on another platform, drop your html,js, css and assets into this folder (starting with the required index.html). Don't forget cordova.js!
 
 Just open framework/ in your favourite editor, build your web app, and run the appropriate make command indicated above. Edit appinfo.json to set your app id (see Notes below), version, etc.
 
