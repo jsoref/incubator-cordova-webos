@@ -80,7 +80,7 @@ Device.prototype.setDeviceInfo = function() {
 };
 
 Device.prototype.setUUID = function() {
-	//this is the only system property webos provides (may change?)
+	//this is the only system property webOS provides (may change?)
 	var that = this;
 	this.service = navigator.service.Request('palm://com.palm.preferences/systemProperties', {
 	    method:"Get",
