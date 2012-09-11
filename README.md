@@ -10,7 +10,7 @@ Set up your environment and install the skeleton app
 -----------------------------------------------------
 Open a terminal, and navigate to the root Cordova webOS folder (where this readme.md file is located). A Makefile resides here; running make here will package your application, and install it to either the emulator, or the device. Or you can run make on individual target tasks:
 
-   - `make js` - builds cordova.js from source javascript files to libs/cordova.js
+   - `make js` - builds cordova.js from source JavaScript files to libs/cordova.js
    - `make copy_js` - copies libs/cordova.js to framework/cordova.js - modify this path if you want cordova.js in another location
    - `make package` - builds the webOS app (located in framework/) into an webOS .ipk installer package in the Cordova_root/palm/ folder
    - `make deploy` - installs the .ipk package to a device if detected, otherwise the emulator if its running 
@@ -30,7 +30,7 @@ Cordova-webOS doesn't need to do any native initialization, but it does fire a `
         // do cool Cordova things
     }, false);
 
-To enable a javascript debug console, open a new terminal window and type:
+To enable a JavaScript debug console, open a new terminal window and type:
     Cordova-log app_id
 Where the app id is your app id as set in `appinfo.json`
 This will tail your log file; it will default to the device if detected, otherwise it will read logs from the emulator.
